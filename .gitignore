@@ -1,0 +1,36 @@
+# Python cache
+
+**pycache**/
+*.py[cod]
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+
+# Secrets
+
+.env
+.env.*
+secrets.toml
+.streamlit/secrets.toml
+
+# Local databases
+
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and system files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+data/chroma_db/
+data/materials/
+data/*.pdf
+*.db
+*.sqlite
+*.sqlite3
